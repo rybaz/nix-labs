@@ -18,7 +18,6 @@
           buildInputs = with pkgs; [
             # python
             python3
-            python312Packages.pip
             virtualenv
           ];
         };
