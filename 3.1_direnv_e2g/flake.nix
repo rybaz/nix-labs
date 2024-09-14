@@ -1,4 +1,3 @@
-```nix
 {
   description = "my e2g flake file";
 
