@@ -1,6 +1,4 @@
 ```bash
-# install your favorites
-nix-shell -p nmap
-# install some tough ones
-nix-shell -p sipvicious
+# install your favorites but temporarily
+nix-shell -p metasploit
 ```
