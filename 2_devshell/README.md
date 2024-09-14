@@ -1,3 +1,4 @@
 ```bash
-nix develop
+# on a system with nix installed:
+nix shell shell.nix
 ```
