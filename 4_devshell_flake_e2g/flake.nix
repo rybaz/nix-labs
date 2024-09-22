@@ -10,6 +10,6 @@
   	pkgs = nixpkgs.legacyPackages."aarch64-darwin";
   in {
   	devShells."aarch64-darwin".default =
-		pkgs.callPackage (import ./shell.nix) {};
+		import ./shell.nix { inherit pkgs; };
   };
 }
