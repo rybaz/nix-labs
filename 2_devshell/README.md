@@ -1,5 +1,5 @@
 # devshell demo
+on a system with nix installed:
 ```bash
-# on a system with nix installed:
-nix shell shell.nix
+nix-shell shell.nix
 ```

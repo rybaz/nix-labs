@@ -1,18 +1,15 @@
- { pkgs ? import <nixpkgs> {} }:
+{ pkgs ? import <nixpkgs> {} }:
 
- pkgs.mkShell {
+pkgs.mkShell {
 
-    packages = [ 
-    	pkgs.python3
+  packages = [ 
+    pkgs.python312
 	];
 
-    shellHook = ''
-    	printf "===============================================================\n"
-    	printf "This is a devshell for Python3 with the following dependencies:\n"
-	printf " - beautifulsoup4\n"
-	printf " - colorama\n"
-	printf " - requests\n"
-    	printf "===============================================================\n"
+  shellHook = ''
+  	printf "===============================================================\n"
+   	printf "This is a devshell for Python 3.12.\n"
+   	printf "===============================================================\n"
 	'';
 }
 
