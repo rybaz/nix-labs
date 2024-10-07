@@ -9,6 +9,7 @@ pkgs.mkShell {
   shellHook = ''
   	printf "===============================================================\n"
    	printf "This is a devshell for Python 3.12.\n"
+   	printf "You can now run Python 3!\n"
    	printf "===============================================================\n"
 	'';
 }

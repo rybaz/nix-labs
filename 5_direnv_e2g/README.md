@@ -35,4 +35,6 @@ layout python3
 ```
 
 3. Run: `direnv allow .`
-3. Run: `pip install -r requirements.txt`
+4. Run: `pip install -r requirements.txt`
+
+There is a better way, though. See #6.
